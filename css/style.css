@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Space mono", sans-serif;
+  color: #333333;
+}
+
+header {
+  width: 90%;
+  margin: 20px auto;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+section {
+  width: 90%;
+  margin: 2em auto;
+}
+
+section .illustration > img {
+  width: 20em;
+  margin-left: calc(50% - 10em);
+}
+
+section .text_content {
+  width: 100%;
+}
+
+section .text_content h2 {
+  font-size: 48px;
+  margin: 1.5em auto;
+  margin-top: 1em;
+  font-weight: 800;
+}
+
+section .text_content p {
+  font-size: 18px;
+  line-height: 1.65;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+section .text_content button {
+  text-transform: uppercase;
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  padding: 24px 43px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 66px;
+  margin-bottom: 80px;
+  -webkit-transition: 330ms;
+  transition: 330ms;
+}
+
+section .text_content button:hover {
+  word-spacing: .6em;
+}
+
+.creator span {
+  display: block;
+  text-align: center;
+  color: #BDBDBD;
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+
+.creator span a {
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #BDBDBD;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  header {
+    width: 95%;
+  }
+  header h1 {
+    font-size: 18px;
+  }
+  section {
+    margin-top: 5em;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section .illustration {
+    width: 55%;
+    margin: 0;
+  }
+  section .illustration img {
+    width: 23em;
+    margin: 0;
+  }
+  section .text_content {
+    margin-top: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    width: 45%;
+  }
+  section .text_content h2 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  section .text_content p {
+    font-size: 16px;
+  }
+  section .text_content button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  header {
+    width: 90%;
+  }
+  section {
+    width: 90%;
+  }
+  section .text_content h2 {
+    font-size: 36px;
+    width: 10em;
+    margin-left: 0;
+  }
+  section .text_content p {
+    font-size: 18px;
+    width: 16em;
+    margin-left: 0;
+  }
+  section .text_content button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    width: 80%;
+  }
+  header h1 {
+    font-size: 16px;
+  }
+  section {
+    width: 80%;
+  }
+  section button {
+    font-size: 14px;
+    padding: 24px 35px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    width: 75%;
+  }
+  section {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  header {
+    width: 65%;
+  }
+  section {
+    width: 65%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
